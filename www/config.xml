@@ -4,7 +4,7 @@
     <description>
         Simple todo list app
     </description>
-    <author email="jean-vincent kassi" href="http://jvk.com">
+    <author email="jeanvincent45@gmail.com" href="http://jvk.com">
     	jean-vincent kassi
     </author>
     <feature name="http://api.phonegap.com/1.0/device" />
