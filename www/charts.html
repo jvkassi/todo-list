@@ -1,0 +1,84 @@
+<!DOCTYPE html> <html>
+<head>
+        <link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.css" />
+	        <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+		        <script src="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.js"></script>
+
+
+<style>
+h1,h2,h3 {
+  padding: 0px;
+  margin:  5px 20px;
+}
+body > div {
+  float: left;
+  width:   220px;
+  margin:  0px 0px 0px 20px;
+}
+div.chart {
+  height:  150px;
+  width:   200px;
+  margin:  0px;
+  padding: 0px;
+}
+.tickLabel {
+  font-size: 9px;
+}
+.chart{
+width:200px;
+float:left;
+}
+</style>
+
+<script src="jquery.flot.js"></script>
+<script src="charts.js"></script>
+<script type="text/javascript" src="jquery.flot.time.js"></script>
+
+</head>
+<body>
+
+<h3>To Do List App Usage Totals</h3>
+
+
+<div class="chart">
+<h3>Last 60 Secondss</h3>
+<h3>Total</h3>
+<div class="chart" id="total_second"></div>
+<h3>Done</h3>
+<div class="chart" id="done_second"></div>
+<h3>Not Done</h3>
+<div class="chart" id="notdone_second"></div>
+</div>
+
+<div class="chart">
+<h3>Last 60 Minutes</h3>
+<h3>Total</h3>
+<div class="chart" id="total_minute"></div>
+<h3>Done</h3>
+<div class="chart" id="done_minute"></div>
+<h3>Not Done</h3>
+<div class="chart" id="notdone_minute"></div>
+</div>
+
+<div class="chart">
+<h3>Last 60 Hours</h3>
+<h3>Total</h3>
+<div class="chart" id="total_hour"></div>
+<h3>Done</h3>
+<div class="chart" id="done_hour"></div>
+<h3>Not Done</h3>
+<div class="chart" id="notdone_hour"></div>
+</div>
+
+<div class="chart">
+<h3>Last 60 Days</h3>
+<h3>Total</h3>
+<div class="chart" id="total_day"></div>
+<h3>Done</h3>
+<div class="chart" id="done_day"></div>
+<h3>Not Done</h3>
+<div class="chart" id="notdone_day"></div>
+</div>
+
+</body>
+</html>
